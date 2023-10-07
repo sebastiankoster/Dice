@@ -94,10 +94,11 @@ void draw(){
     }
   }
   fill(232,220,84);
-  rect(700,900,500,65);
+  rect(650,900,700,65);
   textSize(60);
+  textAlign(CENTER);
   fill(203,94,31);
-  text("Sum of Dice: " + screenCount,700,950); 
+  text("Sum of Dice: " + screenCount,960,950); 
   
 }
 
